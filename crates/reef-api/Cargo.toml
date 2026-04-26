@@ -1,0 +1,36 @@
+[package]
+name = "reef-api"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+reef-storage.workspace = true
+reef-engine.workspace = true
+reef-proto.workspace = true
+reef-rag.workspace = true
+
+axum.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+hyper.workspace = true
+
+async-trait.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+
+jsonwebtoken.workspace = true
+md5 = "0.7"
+futures.workspace = true
+tokio-stream.workspace = true
+
+[dev-dependencies]
+tokio.workspace = true
+tower.workspace = true
